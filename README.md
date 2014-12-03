@@ -1,5 +1,5 @@
 Android BasicAndroidKeyStore Sample
-==============================
+===================================
 
 Welcome to the <b>Basic Android Key Store</b> sample!
 
@@ -13,12 +13,11 @@ To sign some data using a KeyPair, click "Sign".
 
 To verify the data using the signature provided, click "Verify".
 
-
 Pre-requisites
 --------------
 
-- Android SDK v20
-- Android Build Tools v20
+- Android SDK v21
+- Android Build Tools v21.1.1
 - Android Support Repository
 
 Getting Started
@@ -51,7 +50,7 @@ file to you under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License.  You may obtain a copy of
 the License at
 
-  http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
