@@ -13,12 +13,19 @@ encryption keys that only your application can access.
 A [KeyPair][2] consisting of a [PrivateKey][3] and a [PublicKey][4] is being generated.
 The private key then is being used to sign and verify a String.
 
+Below Android M, this sample uses a [KeyPairGeneratorSpec][5] to generate a key pair.
+On newer versions of Android, a [KeyGenParameterSpec][6] generates a key pair with
+additional restrictions and properties.
+
+
 Next to that appropriate exception handling for potential errors is being displayed.
 
 [1]: https://developer.android.com/reference/java/security/KeyStore.html
 [2]: https://developer.android.com/reference/java/security/KeyPair.html
 [3]: https://developer.android.com/reference/java/security/PrivateKey.html
 [4]: https://developer.android.com/reference/java/security/PublicKey.html
+[5]: https://developer.android.com/reference/android/security/KeyPairGeneratorSpec.html
+[6]: https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.html
 
 Pre-requisites
 --------------

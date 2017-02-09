@@ -13,5 +13,8 @@ github:       android-BasicAndroidKeyStore
 level:        ADVANCED
 icon:         screenshots/big-icon.png
 apiRefs:
+    - android:android.security.keystore.KeyGenParameterSpec
+    - android:android.security.keystore.KeyProperties
     - android:android.security.KeyPairGeneratorSpec
+    - android:java.security.KeyStore
 license: apache2
