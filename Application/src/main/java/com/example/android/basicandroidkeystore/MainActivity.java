@@ -19,10 +19,11 @@ package com.example.android.basicandroidkeystore;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
 import android.text.Html;
 import android.widget.TextView;
 import android.view.Menu;
+
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.android.common.activities.SampleActivityBase;
 import com.example.android.common.logger.Log;

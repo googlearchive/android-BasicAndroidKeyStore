@@ -24,9 +24,10 @@ import android.os.Bundle;
 import android.security.KeyPairGeneratorSpec;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyProperties;
-import android.support.v4.app.Fragment;
 import android.util.Base64;
 import android.view.MenuItem;
+
+import androidx.fragment.app.Fragment;
 
 import java.io.IOException;
 import java.math.BigInteger;
