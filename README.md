@@ -2,77 +2,9 @@
 Android BasicAndroidKeyStore Sample
 ===================================
 
-An advanced sample displaying the creation and usage of data integrity mechanisms
+This sample has been deprecated/archived meaning it's read-only and it's no longer actively maintained (more details on archiving can be found [here][1]).
 
-Introduction
-------------
+For other related samples, check out the new [github.com/android/security-samples][2] repo. Thank you!
 
-This sample demonstrates how to use the Android [KeyStore][1] to safely create and store
-encryption keys that only your application can access.
-
-A [KeyPair][2] consisting of a [PrivateKey][3] and a [PublicKey][4] is being generated.
-The private key then is being used to sign and verify a String.
-
-Below Android M, this sample uses a [KeyPairGeneratorSpec][5] to generate a key pair.
-On newer versions of Android, a [KeyGenParameterSpec][6] generates a key pair with
-additional restrictions and properties.
-
-
-Next to that appropriate exception handling for potential errors is being displayed.
-
-[1]: https://developer.android.com/reference/java/security/KeyStore.html
-[2]: https://developer.android.com/reference/java/security/KeyPair.html
-[3]: https://developer.android.com/reference/java/security/PrivateKey.html
-[4]: https://developer.android.com/reference/java/security/PublicKey.html
-[5]: https://developer.android.com/reference/android/security/KeyPairGeneratorSpec.html
-[6]: https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.html
-
-Pre-requisites
---------------
-
-- Android SDK 27
-- Android Build Tools v27.0.2
-- Android Support Repository
-
-Screenshots
--------------
-
-<img src="screenshots/screenshot1.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot2.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot3.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot4.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot5.png" height="400" alt="Screenshot"/> 
-
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-BasicAndroidKeyStore
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2017 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+[1]: https://help.github.com/en/articles/about-archiving-repositories
+[2]: https://github.com/android/security-samples
